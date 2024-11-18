@@ -11,8 +11,11 @@ public static void main(String[] args) {
 
     System.out.println("New line from git commite");
 
-    Student std = new Student();
-    std.sayHello();
+    Student student=new Student();
+    student.sayHello();
+
+    User user=new User();
+    user.sayHello();
 
 }
 
