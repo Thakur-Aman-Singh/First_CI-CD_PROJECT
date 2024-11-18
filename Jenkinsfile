@@ -4,7 +4,7 @@ pipeline{
   
   stages{
 
-    stage("compiling"){
+    stage("compile"){
 
       steps{
 
@@ -15,13 +15,13 @@ pipeline{
       }
     }
 
-    stage("running"){
+    stage("run"){
 
      steps{
     
     sh 'java FirstDemo.java'
 
-    
+
      }
     
     }
