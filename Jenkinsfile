@@ -17,7 +17,13 @@ pipeline{
 
     stage("running"){
 
-     sh 'java FirstDemo.java'
+     steps{
+    
+    sh 'java FirstDemo.java'
+
+    
+     }
+    
     }
 
   }
